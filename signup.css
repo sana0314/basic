@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.set{
+    background-image: url(images/jewellery-banner-2.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.row{
+    color: white;
+}
+
+
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 38%;
+}
+}
+
+
+.p a{
+    text-decoration: none;
+}

@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 solid rgba(0,0,0,.15); 
+    border-radius: 0.25rem;
+} 
+
+
+
+.header{
+    background-color: #41505e;
+}
+ 
+.header ul{
+    padding: 0;
+    color: white;
+}
+
+
+.setting a{
+    padding-left: 5px;
+ 
+}
+
+.header a{
+    color: white;
+}
+
+.header a:hover{
+    color: white;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-item{
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+
+
+
+
+.container-fluid a{
+    color: white;
+}
+
+.navbar-brand img{
+    max-width: 100%;
+    height: 30px;
+}
+
+.nav-item a{
+ color: white;
+}
+
+
+.nav-item a:hover{
+ color: white;
+ 
+}
+
+
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+} 
+
+
+
+.card-body img{
+  min-width: 50%;
+  max-height: 200px;
+}
+
+
+.navbar-toggler{
+    border: 2px solid white;
+    color: black;
+}
+
+.nav-link:focus{
+    color: white;
+}
+
+ .dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    background-color: #1e2125;;
+} 
+
+.set img{
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+} 
+
+
+
+p a{
+    text-decoration: none;
+}
+
+
+
+.footer a{
+  color: white;
+}
+
+
+.footer a:hover{
+    color: white;
+}
+
+
+.social-links li{
+  padding-left: 30px;
+}
+
+@media (max-width: 770px) 
+{ 
+
+    .social-links li{
+       margin-top: 10px;
+       margin-left: 0;
+    }
+
+} 
+
